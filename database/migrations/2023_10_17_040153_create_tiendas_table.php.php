@@ -25,7 +25,7 @@ return new class extends Migration
             ->on('users')
             ->cascadeOnDelete();
 
-            $table->string("image");
+            $table->string("image")->nullable();
             $table->timestamps();
         });
 

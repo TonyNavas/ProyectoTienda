@@ -23,11 +23,9 @@
 <body>
        <!--Un header para toda la parte de arriba, el encabezado-->
   <nav>
-<<<<<<< HEAD
-    <h2 class="Titulo"><a href="{{ route('inicio') }}">NIXELAR</a></h2>
-=======
+
     <h2 class="Titulo"><a href="/">NIXELAR</a></h2>
->>>>>>> 47dcb91b8d171b00d7ecf08be3d2e4cb159e67c1
+
  <div class="Barra">
    <form >
     <input placeholder type="text"="Buscar producto o tienda">
