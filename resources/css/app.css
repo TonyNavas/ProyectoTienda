@@ -1,0 +1,489 @@
+body{
+    background-color: #F3E8EE;
+  /*color de fondo*/
+  font-family: 'Raleway', sans-serif;
+  }
+  body header h2{
+      font-size: 20px;
+      font-family: 'Bebas Neue', sans-serif;}
+      /*No se, creo que es lo mismo del nav de abajo*/
+  nav{
+      background-color: #ffffff;
+      padding:5px 0; /*el margencito ese de dentro*/
+      margin-top: 0;
+      border:0px;
+      max-width: 1600px;
+      display: flex; /*al lado*/
+      justify-content: space-between;
+  }
+  nav h2{
+      font-size: 40px;
+      font-family: 'Bebas Neue', Sans-serif;
+      padding: 2px; /*el texto este del logo*/
+      border: none;
+      margin-top: 2px;
+      margin-bottom: 2px;
+  }
+  nav ul{
+      display: flex;
+      list-style: none;
+      align-items: center;/*lista general, pa que se separen y todo eso*/
+      gap: 2em;
+  }
+  nav ul li a{
+  
+      text-decoration: none;/*especificar cada boton*/
+      font-size: 1em;
+      font-family: 'Raleway', sans-serif;
+      color: #001021;
+      font-weight: 600;
+      margin-right: 30px;
+  }
+  
+
+form{
+    display: flex;
+    align-items: center;
+}
+    input{
+        background-color: #efefef; /* Color de fondo gris */
+        border: none; /* Quita el borde */
+        border-radius: 50px; /* Hace que el cuadro sea circular */
+        padding: 5px 10px; /* Espaciado interno */
+        font-size: 16px; /* Tamaño de fuente */
+        outline: none; /*el borde de fueraaaaaa*/
+        align-items: center;
+        margin-top: 16px;
+    
+}
+button{
+    margin-top: 16px;
+    background-color: #efefef;
+    outline: none;
+    border-radius: 50px;
+    border: 0px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px; /*se explica solo*/
+}
+.contenedor{
+    position: relative;
+    max-width: 100vw;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 40px;
+    /*es sólo el contenedor, lo que hay en él se edita aparte*/
+}
+.contenedor img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    filter: blur(2px) brightness(0.5);/*Es para aplicar dos filtros de una*/
+}
+.Texto{
+    position: absolute;
+    margin-top:0;
+    margin-bottom: 0;
+    top: 50%; /* Alinea el elemento en la mitad superior del contenedor */
+    left: 20%; /* Alinea el elemento en el centro horizontal del contenedor */
+    transform: translate(-50%, -50%); /* Centra el elemento completamente */
+    padding: 10px;
+    text-align: left;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 55px; /* Tamaño de fuente deseado para el h1 */
+    margin: 0;
+    font-family: 'Bebas Neue', Sans-serif;}
+/* Estilo para el h1 */
+.contenedor.Texto h1 {
+    font-size: 96px; /* Tamaño de fuente deseado para el h1 */
+    margin: 0;
+    font-family: 'Bebas Neue', Sans-serif;}
+
+
+.Titulosgrandes h1{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    color: #F7EB39;
+    letter-spacing: 2px;
+}
+.container{
+    width: 700px;
+    background-color: #ffffff;
+    border-radius: 60px;
+    margin: 0;
+    overflow: hidden;
+    grid-column: 1;
+    margin-left: 30px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+div.Textodesc h3 {
+    margin-left: 30px;
+    margin-top: 25px;
+    width:300px;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Outfit', sans-serif;
+}
+.imagenten{
+    margin-top: 30px;
+    margin-left: 100px;
+padding-bottom: 60px;}
+.imagenten img{
+    border-radius: 40px;
+    width: 200px;
+    height: 200px;
+}
+.container2{
+    margin-top: 60px;
+    width: 700px;
+    background-color: #ffffff;
+    border-radius: 60px;/*redondeo de las esquinas*/
+    grid-column: 1;
+    margin-left: 30px;
+    overflow: hidden;
+}
+a{
+    text-decoration: none; /*quitar la linea*/
+}
+a:link{
+color: #001021;
+}
+a:visited{
+    color: #001021;
+}
+a:hover{
+    color: #FF32A0;
+}
+section.container:hover{
+    box-shadow:0 0 10px rgba(140, 125, 125, 0.36);
+}
+section.container2:hover{
+    box-shadow:0 0 10px rgba(140, 125, 125, 0.36);
+}
+.Enlaces{
+    margin-bottom: 30px;
+}
+.container01{
+    display: grid;
+    grid-template-columns: repeat(2fr, 1fr); /* Dos columnas de igual ancho */
+    grid-template-rows: repeat(2, 1fr); /* Dos filas en la primera columna */
+    grid-gap: 20px; /* Espacio entre las columnas */
+  }
+  .container3{
+    grid-column: 2; /* Coloca el cuarto contenedor en la segunda columna */
+    grid-row: 1/3;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 40px;
+  }
+  
+  div.container3:hover{
+    box-shadow:0 0 10px rgba(140, 125, 125, 0.36);
+}
+div.Enlaces{
+    margin-left: 40px;
+}
+a.text1{
+    margin-top: 40px;
+}
+a h3{
+    margin-top: 30px;
+}
+a img.img1{
+    margin-left: 40px;
+}
+a img{
+  width: 100px;  
+  height: 100px;
+}
+.containercarrito{
+    background-color: #f5f5f5;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 600px;
+    margin-left: 60px;
+}
+
+.containercarrito li{
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 600px;
+    padding: 0;
+}    
+
+ul li a.producto1{
+    margin-top: 50px;
+    padding-top: 30px;
+}
+ul.containercarrito li{
+    list-style: none;
+}
+.volver button{
+    font-size: 50px;
+    margin-top: 30px;
+    background-color:#FF32A0;
+    border-radius: 20px;
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 0;
+    margin-left: 30px;
+    padding: 5px
+
+}
+.volver button a:hover{
+  color: #F7EB39;
+}
+.barra form input:hover{
+    box-shadow: 0 0 10px rgba(140, 125, 125, 0.36);
+}
+.producto{
+    background-color: #ffffff;
+    border-radius: 50px;
+    position: fixed;
+margin-top: 10px;
+margin-left: 40px;
+padding: 30px;
+}
+.producto img{
+    border-radius: 30px;
+}
+.containerperfil{
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin: 40px;
+    max-width: 500px;
+    padding: 10px;
+}
+.containerperfil h2{
+    font-size: 38px;
+    font-family: 'Bebas Neue', sans-serif;
+    align-self: center;
+    margin-bottom: 5px;
+}
+.containerperfil img{
+    border-radius: 50px;
+}
+.containerperfil p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+ul li{
+    list-style: none;
+}
+.listatenden{
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 40px;
+    width: 500px;
+    margin-left: 50px;
+
+}
+
+.listatenden img{
+    border-radius: 30px;
+    margin-left: 79px;
+}
+.listatenden h4{
+    position: relative;
+    margin-bottom: 30px;
+}
+.containermenu{
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    border-radius: 30px;
+}
+.containermenu li{
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.listaprod{
+    background-color: #f5f5f5;
+    border-radius: 30px;
+}
+.listaprod li{
+    padding: 10px;
+}
+form button.volver{
+    background-color: #FF32A0;
+}
+.prodhist{
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-top: 60px;
+    width: 300px;
+  padding: 25px;
+}
+.divmensajes{
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    margin-left: 40px;
+    padding: 25px;
+}
+.divmensajes li{
+    padding: 10px;
+    }
+.contmensaje{
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.deseos{
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.deseos li{
+    padding: 30px;
+}
+.podriangustar{
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.podriangustar li{
+    padding: 30px;
+}
+.prodeseos{
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 40px;
+    width: 500px;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+
+.prodeseos img{
+    border-radius: 30px;
+    margin-left: 79px;
+}
+
+.prodpodrian{
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 40px;
+    width: 500px;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+
+.prodpodrian img{
+    border-radius: 30px;
+    margin-left: 79px;
+}
+.categorias{
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 40px;
+    width: 500px;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+
+.categorias img{
+    border-radius: 10px;
+    margin-left: 40px;
+    width: 180px;
+}
+.arte{
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 40px;
+    width: 500px;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+.arte li{
+    padding: 10px;
+}
+.prodarte{
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 40px;
+    width: 500px;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+
+.prodarte img{
+    border-radius: 30px;
+    margin-left: 79px;
+}
+.artesania{
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 40px;
+    width: 500px;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+.artesania li{
+    padding: 10px;
+}
+
+.prodartesania{
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 40px;
+    width: 500px;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+
+.prodartesania img{
+    border-radius: 30px;
+    margin-left: 79px;
+}
+
+.manual{
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 40px;
+    width: 500px;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+.manual li{
+    padding: 10px;
+}
+.prodmanual{
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 40px;
+    width: 500px;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+
+.prodmanual img{
+    border-radius: 30px;
+    margin-left: 79px;
+}

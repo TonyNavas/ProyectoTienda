@@ -1,0 +1,57 @@
+html,body{
+
+    background-image: linear-gradient(to bottom right, #F7EB39,#FF32A0);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body h1{
+    font-size: 66px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+body h4{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+div.Formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.5);;
+    border-radius: 50px;
+    padding: 6px;
+    width: 600px;
+    height: 300px;
+    margin-left: 460px;
+}
+.Formulario label, input{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+input{
+    background-color: #efefef;
+    border: none; 
+    border-radius: 50px;
+    padding: 5px 2px;
+}
+button{
+    background-color: #efefef;
+    border: none;
+    border-radius: 30px;
+    padding: 2px;
+    margin-left: 10px;
+}
+.Formulario a button:hover{
+    color: #FF32A0;
+
+}
